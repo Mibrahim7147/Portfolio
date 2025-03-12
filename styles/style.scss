@@ -20,6 +20,8 @@
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
     --simple-transition: all 4s ease-in-out;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
+
 }
 
 body{
@@ -83,6 +85,7 @@ section{
     transform: translateY(0) scale(1);
 }
 
+
 .active{
     display: block;
     animation: scaleAnim 1s ease-in-out;
@@ -95,6 +98,7 @@ section{
         }
     }
 }
+
 
 //controls
 .controlls{
@@ -131,6 +135,7 @@ section{
         }
    }
 }
+
 
 
 /*Header-content*/
